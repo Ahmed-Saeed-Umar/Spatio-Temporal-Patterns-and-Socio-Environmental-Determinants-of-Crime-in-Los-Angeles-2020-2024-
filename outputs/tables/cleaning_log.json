@@ -1,0 +1,61 @@
+{
+  "rows_raw": 1004894,
+  "steps": [
+    {
+      "step": "Drop duplicate report numbers (DR_NO)",
+      "rows_removed": 0
+    },
+    {
+      "step": "Parse dates (locale-independent)",
+      "unparseable_rows_dropped": 0
+    },
+    {
+      "step": "Report lag = date reported - date occurred",
+      "negative_lags_set_missing": 0
+    },
+    {
+      "step": "Victim age: 0, negative or >100 is not a real age -> missing",
+      "values_set_missing": 269316,
+      "share": 0.268
+    },
+    {
+      "step": "Victim sex: only M/F kept; X, H, '-' and blanks -> 'Unknown'",
+      "set_unknown": 242499
+    },
+    {
+      "step": "Coordinates: 0,0 or outside Los Angeles -> missing",
+      "values_set_missing": 2240
+    },
+    {
+      "step": "Crime descriptions grouped by keyword rules",
+      "unique_descriptions": 140,
+      "groups": 13
+    },
+    {
+      "step": "Weapon: blank Weapon Used Cd means none recorded (67% of rows)",
+      "rows_without_weapon": 677678
+    },
+    {
+      "step": "Premise: keep the 20 most common, rest -> OTHER",
+      "kept": 20
+    },
+    {
+      "step": "Mocodes kept as text for the MO-pattern analysis",
+      "rows_without_mocodes": 151598
+    },
+    {
+      "step": "Outcome from Status (AA/JA = Arrest); rare UNK/CC statuses dropped",
+      "rows_removed": 7
+    },
+    {
+      "step": "Restrict to incidents up to 2023-12-31 (2024 is incomplete)",
+      "rows_removed": 127565
+    }
+  ],
+  "rows_clean": 877322,
+  "arrest_rate": 0.0943,
+  "date_range": [
+    "2020-01-01",
+    "2023-12-31"
+  ]
+}

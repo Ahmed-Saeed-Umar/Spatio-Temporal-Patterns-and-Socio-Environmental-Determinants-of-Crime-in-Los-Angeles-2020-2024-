@@ -1,0 +1,14 @@
+Question,Test,Statistic,p-value,Effect size,Value,Reading,Significant (Bonferroni)
+Does the arrest rate depend on crime type?,Chi-square (df=12),"49,836.5",p < 0.001,Cramér's V,0.238,small,True
+... on the LAPD area?,Chi-square (df=20),"4,698.0",p < 0.001,Cramér's V,0.073,negligible,True
+... on the time of day?,Chi-square (df=3),78.8,p < 0.001,Cramér's V,0.009,negligible,True
+... on the type of premise?,Chi-square (df=20),"6,484.0",p < 0.001,Cramér's V,0.086,negligible,True
+... on the weapon recorded?,Chi-square (df=5),"38,664.9",p < 0.001,Cramér's V,0.210,small,True
+... on victim descent (known only)?,Chi-square (df=4),"3,729.9",p < 0.001,Cramér's V,0.074,negligible,True
+... on victim sex (F vs M)?,Chi-square (df=1),182.3,p < 0.001,Odds ratio F vs M,1.115,95% CI 1.10-1.13,True
+Is a weapon-recorded report more likely to end in arrest?,Chi-square (df=1),"34,725.8",p < 0.001,Odds ratio,3.847,95% CI 3.79-3.90,True
+Do arrested and non-arrested cases differ in victim age?,Mann-Whitney U,"17,436,254,058.0",p < 0.001,Rank-biserial r,-0.087,median 35 (arrest) vs 37 (no arrest),True
+... in reporting delay (days)?,Mann-Whitney U,"23,841,966,858.5",p < 0.001,Rank-biserial r,-0.274,median 0 (arrest) vs 1 (no arrest),True
+Are weekends busier than weekdays (daily reports)?,Mann-Whitney U,"218,019.0",p = 0.997,Rank-biserial r,0.000,median 590 (weekend) vs 592 (weekday) per day,False
+Is there a monotonic trend in monthly reports 2020-2023?,Kendall tau,0.5,p < 0.001,Slope (reports/month per month),84.132,tau=0.51,True
+Does volume differ by calendar month (seasonality)?,Kruskal-Wallis,72.0,p < 0.001,eta-squared (H/(n-1)),0.049,daily volume relative to its year mean,True

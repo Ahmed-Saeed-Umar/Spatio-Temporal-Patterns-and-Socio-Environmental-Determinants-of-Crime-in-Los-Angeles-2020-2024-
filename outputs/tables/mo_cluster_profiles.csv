@@ -1,0 +1,10 @@
+cluster,crimes,share_%,distinctive_MO_codes,top_crime_groups,arrest_rate_%,median_age,name
+0,115621,15.3,0344 1300,Vehicle Theft & Break-ins (41%); Theft & Larceny (35%),3.5,39.0,MO-0: vehicle
+1,89213,11.8,0416 0446 0400 0913 1822,Assault & Battery (82%); Robbery & Extortion (9%),13.5,36.0,MO-1: assault
+2,133039,17.6,1814 2000 0913 0444 0400 0416,Assault & Battery (54%); Threats & Court Orders (22%),20.3,34.0,MO-2: assault
+3,107903,14.3,0329 1307 1609 1300 1822 0344,Vandalism & Arson (67%); Vehicle Theft & Break-ins (17%),7.3,39.0,MO-3: vandalism
+4,38177,5.1,1501 1822,Other / Public Order (30%); Vehicle Theft & Break-ins (17%),9.3,39.0,MO-4: other
+5,45526,6.0,0100 0922 0930 1822,Fraud & Identity Theft (98%); Theft & Larceny (1%),0.7,38.0,MO-5: fraud
+6,33880,4.5,0325 1822 0344,Theft & Larceny (80%); Robbery & Extortion (12%),14.2,29.0,MO-6: theft
+7,86686,11.5,0344 1822 1300,Theft & Larceny (41%); Vehicle Theft & Break-ins (33%),2.7,37.0,MO-7: theft
+8,105674,14.0,0334 1402 1822,Assault & Battery (30%); Fraud & Identity Theft (13%),15.2,36.0,MO-8: assault
